@@ -1,0 +1,19 @@
+# Python virtual environments & bytecode
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Large datasets & raw archives (sample_images/ is tracked for testing)
+dataset/
+raw_data/
+temp_images/
+runs/
+*.rar
+*.zip
+
+# Pretrained base weights from Ultralytics (trained weights in models/ are tracked)
+yolov8n-cls.pt
+yolov8n.pt
